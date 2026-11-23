@@ -1,0 +1,126 @@
+body{
+     margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f36d4b, #ec9654, rgb(243, 124, 144));
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+H1{
+  color: WHITE;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.card1{
+    width: 350px;
+    height: 500px;
+      background:white;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+}
+
+.img1{
+    width: 170px;
+    height: 170px;
+    border-radius: 120px;
+    object-fit: cover;
+   margin-top: 10px;
+   margin-left: 90px;
+    border: 3px solid #f36d4b;
+  
+
+}
+h2{
+  color: #f36d4b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icons{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  gap: 25px;
+   margin-left: 90px;
+ 
+}
+p{
+  color: rgb(70, 67, 67);
+  text-align: center;
+}
+.button1{
+  border: 3px solid  #f36d4b;
+  border-radius: 7px;
+  padding: 6px 12px;
+  width: 170px;
+  height: 55px;
+  color: #fa5a31;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ 
+}
+.button1:hover{
+  cursor: pointer;
+  background-color: #f36d4b;
+  color: white;
+
+}
+.button2:hover{
+  border: 4px solid  #f54e24;
+  cursor: pointer;
+}
+
+.button2{
+  border-radius: 7px;
+  padding: 6px 12px;
+  width: 170px;
+  height: 55px;
+   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #f36d4b;
+  border: none;
+ 
+}
+.card2{
+    width: 350px;
+    height: 500px;
+      background:white;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+}
+
+
+
+
+.card3{
+    width: 350px;
+    height: 500px;
+      background:white;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+}
